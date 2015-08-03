@@ -2733,6 +2733,14 @@ h1.subpages {
   height: 89px;
 }
 
+#specs .green {
+  background: #6BAF37;
+}
+
+#specs .green td {
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   #header {
     position: fixed;
