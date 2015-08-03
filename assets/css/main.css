@@ -10,6 +10,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
+  margin-top: 90px;
+}
+
+body.startpage {
+  margin-top: 0;
 }
 
 h1,
@@ -114,6 +119,10 @@ a:focus {
 
 body > section {
   padding: 70px 0;
+}
+
+body > section#partner {
+  padding: 30px 0;
 }
 
 .center {
@@ -294,6 +303,7 @@ input.search-form:hover {
 
 .navbar-inverse {
   border: none;
+  background: none;
 }
 
 .navbar-inverse .navbar-brand {
@@ -988,15 +998,15 @@ a.accordion-toggle  i{
   padding: 13px 15px;
 }
 
-.nav-tabs li:last-child{
+.nav-tabs li:last-child {
   border-bottom: 0 none;
 } 
 
-.nav-stacked>li+li{
+.nav-stacked>li+li {
   margin-top: 0;
 }
 
-.nav-tabs>li>a:hover{
+.nav-tabs>li>a:hover {
   background: #1f1f20;
   color:#fff;
 }
@@ -1022,20 +1032,20 @@ a.accordion-toggle  i{
   top:0;
 }
 
-.tab-wrap{
+.tab-wrap {
   border:1px solid #e6e6e6;
   margin-bottom: 20px;
 }
 
-.tab-content{
+.tab-content {
   padding: 20px;
 }
 
-.tab-content h2{
+.tab-content h2 {
   margin-top: 0;
 }
 
-.tab-content img{
+.tab-content img {
   border-radius: 4px;
 }
 
@@ -1048,13 +1058,13 @@ a.accordion-toggle  i{
   font-size: 14px;
 }
 
-.testimonial-inner .pull-left{
+.testimonial-inner .pull-left {
   border-right: 1px solid #e7e7e7;
   padding-right: 15px;
   position: relative;
 }
 
-.testimonial-inner .pull-left:after{
+.testimonial-inner .pull-left:after {
   content: "";
   position: absolute;
   width: 9px;
@@ -1070,18 +1080,17 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#partner {
+  /* background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background-size: cover; */
+  background: #fff;
+  border-top: 1px dotted #e3e3e3;
   color: #fff;
   text-align: center;
 }
 
 #partner h2, 
 #partner h3 {
-  color: #fff;
+  color: #4e4e4e;
 }
 
 .partners ul {
@@ -1090,35 +1099,40 @@ a.accordion-toggle  i{
   padding: 0;
 }
 
-.partners ul li{
+.partners ul li {
   display: block;
   clear: both;
   width: 150px;
   margin: 20px auto 0;
 }
 
-#conatcat-info{
-  padding: 30px 0;
+.partners ul li.biggerLogo {
+  width: 200px;
 }
 
-.contact-info i{
+#contact-info{
+  padding: 30px 0;
+  background: #f5f5f5;
+}
+
+.contact-info i {
   width: 60px;
   height: 60px;
   font-size: 40px;
   line-height: 60px;
   color: #fff;
-  background: #000;
+  background: #333;
   text-align: center;
   border-radius: 10px;
 }
 
-.contact-info h2{
+.contact-info h2 {
   margin-top: 0;
-  color: #000;
+  color: #333;
 }
 
-.contact-info{
-  color:#000;
+.contact-info {
+  color:#333;
 }
 
 /*************************
@@ -2624,7 +2638,7 @@ shortcodes page css
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #2e2e2e;
+  background: #333;
 }
 
 #footer a {
@@ -2744,8 +2758,13 @@ h1.subpages {
   .partners ul li {
     display: inline-block;
     float: left;
-    width: 16.5%;
+    width: 15%;
     clear: none;
+    margin: 10px 0 0;
+  }
+
+  .partners ul li.biggerLogo {
+    width: 20%;
     margin: 0;
   }
 }
