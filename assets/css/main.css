@@ -391,14 +391,23 @@ input.search-form:hover {
   margin-top: 140px;
 }
 
-#headerSlider h1 {
+#headerSlider .bothTitles {
+  display: block;
+  position: absolute;
+  width: 30%;
+  top: 120px;
+  z-index: 1000;
+  left: 10%;
+}
+
+#headerSlider .headerSliderTitle {
   background-color: rgba(255,255,255,.75);
   padding: 10px 20px;
   border-radius: 10px 0 0;
   color: #333;
 }
 
-#headerSlider h2 {
+#headerSlider .headerSliderTitle2 {
   color: #fff;
   background: rgba(0,0,0,.5);
   padding: 10px 20px;
