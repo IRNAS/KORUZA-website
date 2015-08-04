@@ -2744,6 +2744,22 @@ h1.subpages {
   color: #fff;
 }
 
+.headerSliderLogos {
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	bottom: 0;
+	z-index: 10;
+}
+
+.headerSliderLogos.irnas {
+	left: 0
+}
+
+.headerSliderLogos.shuttleworth {
+	right: 0;
+}
 
 
 @media (min-width: 768px) {
