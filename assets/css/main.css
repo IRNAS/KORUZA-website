@@ -2745,22 +2745,8 @@ h1.subpages {
 }
 
 .headerSliderLogos {
-	display: block;
-	position: absolute;
-	width: 200px;
-	height: 60px;
-	bottom: 0;
-	z-index: 10;
+  display: none;
 }
-
-.headerSliderLogos.irnas {
-	left: 0
-}
-
-.headerSliderLogos.shuttleworth {
-	right: 0;
-}
-
 
 @media (min-width: 768px) {
   #header {
@@ -2796,6 +2782,23 @@ h1.subpages {
   .partners ul li.biggerLogo {
     width: 20%;
     margin: 0;
+  }
+
+  .headerSliderLogos {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  .headerSliderLogos.irnas {
+    left: 0
+  }
+
+  .headerSliderLogos.shuttleworth {
+    right: 0;
   }
 }
 
