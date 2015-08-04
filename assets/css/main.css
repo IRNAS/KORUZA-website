@@ -118,6 +118,10 @@ a:focus {
 }
 
 body > section {
+  padding: 70px 0;
+}
+
+body > section#what-why-how {
   padding: 0 0 70px 0;
 }
 
@@ -282,7 +286,7 @@ input.search-form:hover {
  }
 
 .navbar-nav>li{
-  margin-left: 35px;
+  margin-left: 25px;
   padding-bottom: 28px;
 }
 
