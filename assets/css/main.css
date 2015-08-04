@@ -2808,7 +2808,19 @@ h1.subpages {
     width: 20%;
     margin: 0;
   }
+}
 
+@media (min-width: 1200px) {
+  #history .dummyImage {
+    display: block;
+  }
+
+  #headerSlider .bothTitles {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1500px) {
   .headerSliderLogos {
     display: block;
     position: absolute;
@@ -2824,15 +2836,5 @@ h1.subpages {
 
   .headerSliderLogos.shuttleworth {
     right: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  #history .dummyImage {
-    display: block;
-  }
-
-  #headerSlider .bothTitles {
-    width: 50%;
   }
 }
