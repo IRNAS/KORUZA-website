@@ -303,7 +303,7 @@ input.search-form:hover {
 
 .navbar-inverse {
   border: none;
-  background: none;
+  background: #333;
 }
 
 .navbar-inverse .navbar-brand {
@@ -413,7 +413,6 @@ input.search-form:hover {
 #headerSlider .readMore {
   display: none;
 }
-
 
 body.startpage #headerSlider .readMore {
   display: inline-block;
@@ -2701,6 +2700,10 @@ h1.subpages {
   margin-top: 30px;
 }
 
+#whom h2.big {
+	font-size: 34px;
+}
+
 .featureImage {
   margin-bottom: 20px;
 }
@@ -2741,6 +2744,8 @@ h1.subpages {
   color: #fff;
 }
 
+
+
 @media (min-width: 768px) {
   #header {
     position: fixed;
@@ -2752,6 +2757,7 @@ h1.subpages {
   }
 
   #what-why-how .boxes {
+  	min-height: 400px;
     margin: 0 10px;
     width: 30%;
     display: inline-block;
