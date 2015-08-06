@@ -2832,9 +2832,8 @@ h1.subpages {
 }
 
 @media (min-width: 1080px) {
-
   .navbar-inverse .navbar-nav > li > a {
-    padding: 5px 12px;
+    padding: 5px 10px;
   }
 }
 
@@ -2845,5 +2844,11 @@ h1.subpages {
 
   #headerSlider .bothTitles {
     width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 5px 10px;
   }
 }
