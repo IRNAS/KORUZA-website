@@ -376,6 +376,7 @@ input.search-form:hover {
 **************************/
 #headerSlider {
   position: relative;
+  z-index: 1;
 }
 
 .no-margin {
