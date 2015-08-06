@@ -291,7 +291,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 5px 12px;
+  padding: 5px 7px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -2807,6 +2807,13 @@ h1.subpages {
   .partners ul li.biggerLogo {
     width: 20%;
     margin: 0;
+  }
+}
+
+@media (min-width: 1080px) {
+
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 5px 12px;
   }
 }
 
