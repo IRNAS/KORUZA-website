@@ -1,3 +1,3 @@
 Wireless optical system KORUZA website
 ======
-Under construction
+Website is located in gh-pages branch
