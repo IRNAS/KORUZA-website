@@ -2713,12 +2713,14 @@ h1.subpages {
 
 #history .oneYear,
 #features .oneSection,
-#whom .oneSection {
+#whom .oneSection,
+#events .oneSection {
   border-top: 1px dotted #6BAF37;
   padding-top: 50px;
   margin-top: 30px;
 }
 
+#whom h2.big,
 #whom h2.big {
 	font-size: 34px;
 }
