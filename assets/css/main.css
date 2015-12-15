@@ -2858,3 +2858,10 @@ h1.subpages {
     padding: 5px 10px;
   }
 }
+
+.order-section{
+  margin-top:25px;
+}
+.order-section .col-sm-10{
+  padding-left:0px !important;
+}
