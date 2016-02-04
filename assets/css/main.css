@@ -123,6 +123,7 @@ body > section {
 
 body > section#what-why-how {
   padding: 0 0 70px 0;
+  margin-top:40px
 }
 
 body > section#partner {
@@ -2799,8 +2800,8 @@ footer .btn-success  {
   }
 
   #headerSlider {
-    top: 90px;
-    margin-bottom: 90px;
+    /*p: 90px;
+    margin-bottom: 90px;*/
   }
 
   .partners ul li {
