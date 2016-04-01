@@ -3506,3 +3506,11 @@ text-transform:uppercase;
 #what-2 h2{
   font-size:20px;
 }
+
+@media (min-width:768px){
+
+#sticky-button{
+  float:right;
+  position:fixed;
+}
+}
