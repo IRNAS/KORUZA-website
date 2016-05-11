@@ -1161,6 +1161,14 @@ a.accordion-toggle  i{
   color:#333;
 }
 
+#intro-start{
+  padding:50px 0px 50px;
+}
+
+#intro-start iframe{
+  margin:50px 0px 50px;
+}
+
 /*************************
 ********* About Us Page CSS ******
 **************************/
@@ -3090,10 +3098,6 @@ padding-bottom:20px;
 border-top: 1px dotted #6BAF37;
 }
 
-#contactPage{
-  padding-top:0px;
-  padding-bottom:20px;
-}
 
 #about{
   padding-bottom:20px;
@@ -3600,20 +3604,7 @@ text-transform:uppercase;
 }
 
 
-.well-half-1, .well-half-2{
-  width:48%;
-}
-
-.well-half-1{
-  float:left;
-}
-
-.well-half-2{
-  float:right;
-}
-
-.well-half-2 .img-responsive{
-  width:80%;
+.well-footer .img-responsive{
   float:left;
 }
 
@@ -3626,5 +3617,23 @@ margin-bottom:5px;
 .well h3, .well p, .well hr{
   margin-top:5px;
   margin-bottom:5px;
+}
+
+#deployments .highlight-p{
+  margin-bottom:20px;
+  text-align: left;
+}
+
+#deployments .col-centered h2{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+#tkalka{
+  width:60%;
+}
+
+.intro-block{
+  padding-bottom:30px;
 }
 
