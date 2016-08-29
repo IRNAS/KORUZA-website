@@ -3564,7 +3564,7 @@ text-transform:uppercase;
 }
 
 .item {
- display: inline-block;
+display:inline-block;
  padding:  .25rem;
  width:  100%; 
 }
@@ -3703,3 +3703,6 @@ html, body {
   font-weight: normal;
 }
 
+.parallax{
+	background-size: 100%
+}
