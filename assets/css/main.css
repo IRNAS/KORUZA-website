@@ -3706,3 +3706,138 @@ html, body {
 .parallax{
 	background-size: 100%
 }
+
+
+/***************************
+****INDEX-PRO+DEV***********
+***************************/
+
+.col-left, .col-right{
+  padding:0px !important;
+  margin:0px !important;
+}
+
+
+@media (min-width: 768px) {
+  .col-left, .col-right{
+  margin-bottom:-1px !important;
+  margin-top:-2px !important;
+}
+.content-details{
+  font-size:1.2em;
+}
+}
+
+
+
+
+.col-left img, .col-right img{
+  width:100%;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.content .content-overlay{
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  overflow: hidden;
+}
+
+.content:hover .content-overlay, .content1:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    overflow: hidden;
+}
+
+.content:hover .content-details, .content1:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size:1.8em;
+}
+
+
+.content-details p{
+ padding:0 5%;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+.content-details h3{
+  font-size:1.4em;
+}
+.content-details p{
+   font-size: 1em;
+}
+.koruza-dev, .koruza-pro{
+   font-size: 1.3em; 
+}
+}
+
+.koruza-dev{
+color:#7FC649;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.koruza-pro{
+color:#00aacf;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.pro-button{
+background-color: #00aacf !important;
+}
+
+.content-details .btn{
+margin-top:15px;
+}
