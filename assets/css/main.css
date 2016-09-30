@@ -2704,7 +2704,7 @@ h1.subpages {
   margin-bottom:50px;
 }
 
-#specs .subpages, #contactPage .subpages, #support .subpages, #events .subpages, #history .subpages{
+#specs .subpages, #contactPage .subpages, #support .subpages, #events .subpages, #history .subpages, #about .subpages{
   text-align: left;
   margin-top:0px;  
 }
