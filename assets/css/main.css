@@ -422,6 +422,7 @@ input.search-form:hover {
   background: rgba(0,0,0,.5);
   padding: 10px 20px;
   border-radius: 0 0 10px;
+  text-transform:none;
 }
 
 #headerSlider .btn-slide {
@@ -2752,9 +2753,6 @@ h1.subpages {
   margin-top: 30px;
 }
 
-oneSection0
-
-
 #whom h2.big,
 #whom h2.big {
 	font-size: 34px;
@@ -2812,7 +2810,7 @@ footer .btn-success  {
   }
 
   #headerSlider .bothTitles {
-    top: 154px;
+    top: 310px;
   }
 
   #header {
