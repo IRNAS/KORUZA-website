@@ -434,6 +434,13 @@ input.search-form:hover {
   display: inline-block;
 }
 
+
+@media (max-width: 768Px){
+#headerSlider .headerSliderTitle{
+  margin-top:250PX;
+}
+}
+
 #headerSlider .readMore {
   display: none;
 }
