@@ -67,7 +67,7 @@ a:hover, a:focus {
   color: #d43133;
 }
 
-hr {
+hr{
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
@@ -2754,7 +2754,8 @@ h1.subpages {
 #features .oneSection,
 #whom .oneSection,
 #events .oneSection,
-#test-facility .oneSection{
+#test-facility .oneSection,
+#publications .oneSection{
   border-top: 1px dotted #6BAF37;
   padding-top: 50px;
   margin-top: 30px;
@@ -3936,4 +3937,18 @@ margin-top:15px;
 
 .panel-group{
   margin-bottom:70px;
+}
+
+.pubSection{
+  min-width:30px;
+}
+
+#publications h1{
+  text-align:left;
+}
+
+#publications .oneSection{
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-top:10px;
 }
